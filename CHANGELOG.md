@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.2.0 (2026-06-27)
+
+### 🐛 Bug 修复
+- 修复 arcaea 直接生成模式 KeyError（`/draw arcaea <序号> <文字>`）
+- 修复交互式流程中 `/draw` 命令被正则监听器重复处理的问题
+- `/draw list` 改为分两条消息发送 PJSK 和 Arcaea 角色列表
+
+### 🚀 新功能
+- arcaea 直接生成模式：`/draw arcaea <角色序号> <文字>`
+- `/draw list` 同时展示 PJSK 和 Arcaea 角色列表
+
+---
+
 ## v1.1.0 (2026-06-27)
 
 ### 🚀 新功能
