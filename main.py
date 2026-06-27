@@ -9,7 +9,7 @@ import urllib.parse
 import base64
 import httpx
 
-@register("astrbot_plugin_pjsk_sticker", "kamicry", "pjsk表情包生成器", "v1.0.0")
+@register("astrbot_plugin_pjsk_sticker", "kamicry", "pjsk表情包生成器", "v1.1.0")
 class StickerPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
